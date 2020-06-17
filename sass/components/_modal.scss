@@ -180,6 +180,11 @@
   background-color: $background-first;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+
+  &:hover .icon-close,
+  &:focus .icon-close {
+    fill: $acent-color;
+  }
 }
 
 .icon-close {
