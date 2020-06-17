@@ -57,11 +57,12 @@ img {
   margin-right: auto;
 }
 
-title {
+.section-title {
   color: #212121;
 }
 
-p {
+p,
+.section-text {
   color: #757575;
 }
 
