@@ -933,33 +933,19 @@ footer {
   display: inline-flex;
 }
 
-.subscribe-label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.subscribe-input {
   padding-left: 16px;
+  padding-right: 16px;
   min-width: 358px;
   height: 50px;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  background-color: #2f303a;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.subscribe-input {
-  min-width: 280px;
-  padding-left: 65px;
-  margin: 0;
-  padding: 0;
   color: rgba(255, 255, 255, 0.6);
   border: none;
   background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
 }
 
 .button-secondary {
