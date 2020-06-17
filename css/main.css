@@ -792,4 +792,15 @@ p {
   width: 89px;
   height: 46px;
 }
+
+footer {
+  background-color: #2f303a;
+}
+
+.foot {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
