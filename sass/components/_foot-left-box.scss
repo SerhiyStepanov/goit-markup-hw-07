@@ -1,0 +1,33 @@
+.foot .left {
+  margin-right: 69px;
+  padding-top: 48px;
+}
+
+.page-footer .logo {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.bottom-studio {
+  color: $primary-white-color;
+}
+
+.page-footer .home {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $primary-white-color;
+}
+
+.page-footer .link {
+  margin-top: 9px;
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
