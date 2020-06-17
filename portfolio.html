@@ -293,28 +293,17 @@
 
         <div class="box right">
           <b class="text">подписаться на рассылку</b>
-          <form>
-            <ul class="registr">
-              <li class="list element">
-                <div class="primary item">
-                  <label class="subscribe-label" for="mail">E-mail</label>
-                  <input
-                    class="subscribe-input"
-                    type="email"
-                    name="mail"
-                    id="mail"
-                  />
-                </div>
-              </li>
-              <li class="list element">
-                <button class="button-secondary item" type="submit">
-                  Подписаться
-                  <svg class="icon-iconsend" aria-label="сообщение">
-                    <use href="./images/sprite.svg#icon-iconsend"></use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
+          <form class="subscribe">
+            <label class="subscribe-label"
+              >E-mail<input class="subscribe-input" type="email" name="mail"
+            /></label>
+
+            <button class="button-secondary item" type="submit">
+              Подписаться
+              <svg class="icon-iconsend" aria-label="сообщение">
+                <use href="./images/sprite.svg#icon-iconsend"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
