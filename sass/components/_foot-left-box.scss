@@ -5,7 +5,8 @@
 }
 
 .page-footer .logo {
-  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 22px;
@@ -25,6 +26,7 @@
 }
 
 .page-footer .link {
+  display: inline-block;
   margin-top: 9px;
 
   font-size: 14px;
