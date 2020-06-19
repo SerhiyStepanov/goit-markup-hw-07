@@ -87,12 +87,12 @@
     opacity: 0;
 
     transition: opacity 250ms $cubic;
-
-    .cart .link:hover &,
-    .cart .linc:focus & {
-      opacity: 1;
-    }
   }
+}
+
+.cart .link:hover .content::after,
+.cart .linc:focus .content::after {
+  opacity: 1;
 }
 
 .cart .element:nth-child(3n) {
