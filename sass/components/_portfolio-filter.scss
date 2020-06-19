@@ -1,0 +1,38 @@
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $background-first;
+  border-top: 1px solid #ececec;
+}
+
+.filter-work {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+
+.filter-work .item + .item {
+  margin-left: 8px;
+}
+
+.section-portfolio .filter {
+  padding: 6px 22px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border: 0;
+  border-radius: 4px;
+  background-color: $background-second;
+  color: $title-text-color;
+
+  transition: background-color 250ms $cubic, color 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    background-color: $acent-color;
+    color: $primary-white-color;
+  }
+}
