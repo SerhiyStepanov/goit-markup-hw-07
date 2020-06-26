@@ -12,14 +12,15 @@
 }
 
 .cart .link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .product {
   position: relative;
   display: block;
   width: 100%;
-  height: 100%;
 
   overflow: hidden;
 
@@ -70,6 +71,7 @@
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+  flex-grow: 1;
 
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
